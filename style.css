@@ -1,4 +1,6 @@
-body { margin:0;  font-family: 'Verdana', Geneva, sans-serif;; background:#ffc90e; color:#880015; }
+@font-face {font-family: "Dreaming Outloud Pro"; src: url('dreaming-outloud-pro-regular.otf') format('opentype'); font-weight: normal;font-style: normal;}
+
+body { margin:0;  font-family: 'Dreaming Outloud Pro', Geneva, sans-serif;; background:#ffc90e; color:#880015; }
 nav { background:#880015; color:#ffc90e; padding:10px 20px; position:fixed; width:100%; top:0; z-index:1000; }
 .nav-container { display:flex; justify-content:space-between; align-items:center; }
 .nav-links { display:flex; list-style:none; gap:20px; }
