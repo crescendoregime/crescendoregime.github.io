@@ -20,7 +20,7 @@ header { padding-top:60px; text-align:center; position:relative; }
 .centeredtext { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:#880015; font-size:48px; font-weight:bold; }
 .projcontainer { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; padding:20px; }
 .project img { width:100%; border-radius:10px; }
-.iframely-embed {width: 78.5%; display: block; margin: 0 auto; height: 140px; padding-bottom: 0;}
+.iframely-embed {width: 78.5%; display: block; margin: 0 auto;}
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal */
 input[type=text], input[type=password] {width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ffc90e; box-sizing: border-box; zoom: 1.1;}
