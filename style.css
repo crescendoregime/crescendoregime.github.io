@@ -1,5 +1,5 @@
 @font-face {font-family: "Dreaming Outloud Pro"; src: url('Dreaming Outloud Pro.otf') format('opentype'); font-weight: normal; font-style: normal;}
-* {cursor: url("resources/Crescendo Regime Emblem.png"), crosshair;}
+* {cursor: url(resources/Crescendo Regime Emblem.png), crosshair;}
 
 body {margin:0;  font-family: 'Dreaming Outloud Pro', Arial, sans-serif; background:#ffc90e; color:#880015; font-size: 120%;}
 nav {background:#880015; color:#ffc90e; padding:10px 20px; position:fixed; width:100%; top:0; z-index:1000;}
