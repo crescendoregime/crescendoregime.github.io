@@ -50,4 +50,13 @@
     <div class="project"><h3>Approved Music</h3><a href="music.html"><img src="resources/Be Sure to Play In Tune Propaganda Poster.png" alt="Music"></a></div>
     <div class="project"><h3>Other Resources</h3><a href="resources.html"><img src="resources/Live Booster Gold Reaction.png" alt="Resources"></a></div>
   </div>
+  <div style="text-align: center;"><button id="open_dialog">Regime Updates</button></div>
+  <div id="overlay" class="overlay">
+    <div class="popup-box">
+      <h2>June 2, 2026</h2>
+      <p>"Keep one ear open." — Our Fearless Leader</p>
+      <button id="close_dialog">Close</button>
+    </div>
+  </div>
+  <script>const open_dialog = document.getElementById("open_dialog"); const close_dialog = document.getElementById("close_dialog"); const overlay = document.getElementById("overlay"); open_dialog.addEventListener("click", () => {overlay.style.display = "flex";}); close_dialog.addEventListener("click", () => {overlay.style.display = "none";});</script>
 </body></html>
