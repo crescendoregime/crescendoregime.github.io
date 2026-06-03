@@ -67,4 +67,16 @@
   <h4>Long after the cowardly Chairman Mannix had escaped, the ever-villainous Goldstein made a pathetic last stand in the Menzies courtyard armed with a small machine gun. He then fled shortly after once he recognised the inevitable victory of the Regime's order over the disharmony of its enemies.</h4><br>
   <h4>Once the Crescendo Regime secured its resounding triumph, Our Fearless Leader, through his otherworldly power, created the Elixir of Voice as a celebratory drink for himself and his trusted comrades-in-arms. Throughout the night, the soft sound of the ukulele could be heard throughout Langley. This sacred melody served as an unending testament to the glory of the Octave Order's grand purpose, fulfilled after millennia of struggle.</h4><br>
   <img class="manifesto" src="resources/Henry Hoover.jpg" alt="Henry Hoover"><br><br>
+  <div style="text-align: center;"><button id="open_dialog">Regime Updates</button></div>
+  <div id="overlay" class="overlay">
+    <div class="popup-box">
+      <h2>June 3, 2026</h2>
+      <p>It's a bad day to be a bottle of Victory Gin when Our Fearless Leader is present!</p>
+      <h2>June 2, 2026</h2>
+      <p>"Keep an ear out." — Our Fearless Leader</p>
+      <button id="close_dialog">Close</button>
+    </div>
+  </div>
+  <br><br>
+  <script>const open_dialog = document.getElementById("open_dialog"); const close_dialog = document.getElementById("close_dialog"); const overlay = document.getElementById("overlay"); open_dialog.addEventListener("click", () => {overlay.style.display = "flex";}); close_dialog.addEventListener("click", () => {overlay.style.display = "none";});</script>
 </body></html>
